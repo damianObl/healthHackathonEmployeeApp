@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutCompat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="89dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/mutterhaus_logo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_round"
+        android:backgroundTint="#337AE5"
+        app:srcCompat="@drawable/ic_feedback"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        tools:layout_editor_absoluteX="32dp" />
+
+    <WebView
+        android:layout_width="411dp"
+        android:layout_height="137dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
